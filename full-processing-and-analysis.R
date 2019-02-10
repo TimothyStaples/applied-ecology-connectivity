@@ -1,12 +1,13 @@
 # ################################################################### ####
-# Information sharing within applied ecology is strong but asymmetric ####
-# Author:    Timothy L Staples                                        ####
+# Title: Applied research is on the rise but connectivity barriers    #### 
+#        persist between four major subfields                         ####
+# Author: Timothy L Staples                                           ####
+# Details: Full data processing and analysis script                   ####  
 # ################################################################### ####
-
 # ####
 # Working directory ####
 rm(list=ls())
-setwd("/home/timothy/University files - offline/PhD - offline/Citation network resources/Version 2")
+setwd("LOCATION OF THIS SCRIPT")
 # Libraries ####
 library(parallel)
 library(stringi)
@@ -48,7 +49,7 @@ circ.point<-function(x, y, r, deg){
 # BASIC PROCESSING CODE (USED TO CREATE IMPORTED FILES) ####
 
 #         CONVERT RAW TXT WoS DATA TO DATA-FRAMES - TIME INTENSIVE! ####
-raw.wos.folders<-list.files("/home/timothy/University files - offline/PhD - offline/Citation network resources/Automated WOS downloads",
+raw.wos.folders<-list.files("LOCATION OF WEB OF SCIENCE DOWNLOADS",
                             full.names=TRUE)
 
 z<-raw.wos.folders[grepl("2017", raw.wos.folders)]
@@ -630,7 +631,7 @@ write.csv(as.data.frame(evaluation.stats),
           "./Outputs/Citation match evaluation.csv")
 
 # ####
-# ADDITIONAL PROCESSING <- START WITH IMPORTED DATA HERE! ####
+# ADDITIONAL PROCESSING <- START WITH PROCESSED DATA HERE! ####
 #               READ IN DATA ####
 
 frame.ecology<-read.csv("./Data/subset paper dataframe.csv", row.names=1,

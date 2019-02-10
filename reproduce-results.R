@@ -1,24 +1,19 @@
 # ################################################################### ####
-# Information sharing within applied ecology is strong but asymmetric ####
-# Author:    Timothy L Staples                                        ####
+# Title: Applied research is on the rise but connectivity barriers    #### 
+#        persist between four major subfields                         ####
+# Author: Timothy L Staples                                           ####
+# Details: Minimal code to reproduce results and figures              ####  
 # ################################################################### ####
 
 # ####
 # Working directory ####
 rm(list=ls())
-setwd("/home/timothy/Dropbox/Tim/PhD/Data/Chapter - review/Staples_et_al-2018-code")
+setwd("LOCATION OF THIS SCRIPT")
 # Libraries ####
-library(parallel)
-library(stringi)
 library(lme4)
 library(vegan)
 library(plotrix)
-library(igraph)
 library(mgcv)
-library(tidytext)
-library(SnowballC)
-library(tidyr)
-library(grr)
 
 # Global functions ####
 
