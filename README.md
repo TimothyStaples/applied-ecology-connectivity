@@ -12,4 +12,4 @@ script I created to web scrape the WoS data. This script creates and modifies se
 
 **batch-WOS-downloads.R** is the tool I used to download paper metadata from Web of Science. It takes a search URL and generates an automated web browser using Selenium (by manipulating website objects such as drop-down boxes etc). You will need to install Selenium separately. In addition, due to updates to the Web of Science website, this script no longer functions correctly. I've included it for transparency, and potentially for inspiration.
 
-https://zenodo.org/badge/DOI/10.5281/zenodo.2572033.svg
+[![DOI](https://zenodo.org/badge/170030696.svg)](https://zenodo.org/badge/latestdoi/170030696)
