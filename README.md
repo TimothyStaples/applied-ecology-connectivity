@@ -11,3 +11,5 @@ Three scripts are provided in this repository, along with summarised data used f
 script I created to web scrape the WoS data. This script creates and modifies several very large objects (e.g., 32 million rows of two columns, ~300,000 rows of 60 columns). It was run on a workstation with 16GB of RAM - this is the bare minimum to complete the script successfully, and even then requires numerous object removal, garbage collections "gc()" and in some cases removing all objects in the R environment.
 
 **batch-WOS-downloads.R** is the tool I used to download paper metadata from Web of Science. It takes a search URL and generates an automated web browser using Selenium (by manipulating website objects such as drop-down boxes etc). You will need to install Selenium separately. In addition, due to updates to the Web of Science website, this script no longer functions correctly. I've included it for transparency, and potentially for inspiration.
+
+https://zenodo.org/badge/DOI/10.5281/zenodo.2572033.svg
