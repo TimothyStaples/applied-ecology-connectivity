@@ -1,5 +1,5 @@
 # applied-ecology-connectivity
-Code used to generate results, figures and tables for DOI: XXXX.
+Code used to generate results, figures and tables for DOI: 10.1111/1365-2664.13373.
 
 The data used to generate this publication were obtained from Web of Science. The search terms and download protocol are available in the Methods section of the Supplementary material.
 
